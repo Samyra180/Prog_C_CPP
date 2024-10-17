@@ -1,0 +1,115 @@
+--- Exemplo 01 --->
+10
+0x44569ffc8c
+--- Exemplo 02 --->
+Mostra o valor atual da variável 'var_ex02': 20
+Mostra o endereço de memória onde se encontra a variável 'var_ex02': 0x44569ffc88
+Mostra o valor da variável 'var_ex02', apontada pelo ponteiro 'ptr_ex02': 20
+--- Exemplo 03 --->
+Resultado do acesso ao endereço de memória da variável 'letra_ex03': +
+--- Exemplo 04 --->
+--- Exemplo 05 --->
+10 20 30 40 50 
+Endereço de memória onde está o primeiro elemento do 'array': 0x44569ffc70
+Valor do primeiro elemento do 'array', usando o índice (index): 10
+Valor do primeiro elemento do 'array', usando o endereço (pointer): 10
+Novo endereço de memória, para onde o ponteiro aponta': 0x44569ffc74
+Valor do elemento do 'array', apontado pelo novo endereço:  20
+Novo endereço de memória, para onde o ponteiro aponta': 0x44569ffc78
+Valor do elemento do 'array', apontado pelo novo endereço: 30
+Novo endereço de memória, para onde o ponteiro aponta': 0x44569ffc74
+Valor do elemento do 'array', apontado pelo novo endereço: 20
+Valor do elemento do 'array', apontado pelo endereço atual: 40
+Valor do elemento do 'array', apontado pelo endereço atual: 50
+--- Exemplo 01 --->
+10
+0xdfd2bff93c
+--- Exemplo 02 --->
+Mostra o valor atual da variável 'var_ex02': 20
+Mostra o endereço de memória onde se encontra a variável 'var_ex02': 0xdfd2bff938
+Mostra o valor da variável 'var_ex02', apontada pelo ponteiro 'ptr_ex02': 20
+--- Exemplo 03 --->
+Resultado do acesso ao endereço de memória da variável 'letra_ex03': +
+--- Exemplo 04 --->
+--- Exemplo 05 --->
+10 20 30 40 50 
+Endereço de memória onde está o primeiro elemento do 'array': 0xdfd2bff920
+Valor do primeiro elemento do 'array', usando o índice (index): 10
+Valor do primeiro elemento do 'array', usando o endereço (pointer): 10
+Novo endereço de memória, para onde o ponteiro aponta': 0xdfd2bff924
+Valor do elemento do 'array', apontado pelo novo endereço:  20
+Novo endereço de memória, para onde o ponteiro aponta': 0xdfd2bff928
+Valor do elemento do 'array', apontado pelo novo endereço: 30
+Novo endereço de memória, para onde o ponteiro aponta': 0xdfd2bff924
+Valor do elemento do 'array', apontado pelo novo endereço: 20
+Valor do elemento do 'array', apontado pelo endereço atual: 40
+Valor do elemento do 'array', apontado pelo endereço atual: 50
+--- Exemplo 01 --->
+10
+0x7544fff8cc
+--- Exemplo 02 --->
+Mostra o valor atual da variável 'var_ex02': 20
+Mostra o endereço de memória onde se encontra a variável 'var_ex02': 0x7544fff8c8
+Mostra o valor da variável 'var_ex02', apontada pelo ponteiro 'ptr_ex02': 20
+--- Exemplo 03 --->
+Resultado do acesso ao endereço de memória da variável 'letra_ex03': +
+--- Exemplo 04 --->
+--- Exemplo 05 --->
+10 20 30 40 50 
+Endereço de memória onde está o primeiro elemento do 'array': 0x7544fff8b0
+Valor do primeiro elemento do 'array', usando o índice (index): 10
+Valor do primeiro elemento do 'array', usando o endereço (pointer): 10
+Novo endereço de memória, para onde o ponteiro aponta': 0x7544fff8b4
+Valor do elemento do 'array', apontado pelo novo endereço:  20
+Novo endereço de memória, para onde o ponteiro aponta': 0x7544fff8b8
+Valor do elemento do 'array', apontado pelo novo endereço: 30
+Novo endereço de memória, para onde o ponteiro aponta': 0x7544fff8b4
+Valor do elemento do 'array', apontado pelo novo endereço: 20
+Valor do elemento do 'array', apontado pelo endereço atual: 40
+Valor do elemento do 'array', apontado pelo endereço atual: 50
+--- Exemplo 01 --->
+10
+0x24ffdffb7c
+--- Exemplo 02 --->
+Mostra o valor atual da variável 'var_ex02': 20
+Mostra o endereço de memória onde se encontra a variável 'var_ex02': 0x24ffdffb78
+Mostra o valor da variável 'var_ex02', apontada pelo ponteiro 'ptr_ex02': 20
+--- Exemplo 03 --->
+Resultado do acesso ao endereço de memória da variável 'letra_ex03': +
+--- Exemplo 04 --->
+--- Exemplo 05 --->
+10 20 30 40 50 
+Endereço de memória onde está o primeiro elemento do 'array': 0x24ffdffb60
+Valor do primeiro elemento do 'array', usando o índice (index): 10
+Valor do primeiro elemento do 'array', usando o endereço (pointer): 10
+Novo endereço de memória, para onde o ponteiro aponta': 0x24ffdffb64
+Valor do elemento do 'array', apontado pelo novo endereço:  20
+Novo endereço de memória, para onde o ponteiro aponta': 0x24ffdffb68
+Valor do elemento do 'array', apontado pelo novo endereço: 30
+Novo endereço de memória, para onde o ponteiro aponta': 0x24ffdffb64
+Valor do elemento do 'array', apontado pelo novo endereço: 20
+Valor do elemento do 'array', apontado pelo endereço atual: 40
+Valor do elemento do 'array', apontado pelo endereço atual: 50
+--- Exemplo 01 --->
+10
+0x60401ff74c
+--- Exemplo 02 --->
+Mostra o valor atual da variável 'var_ex02': 20
+Mostra o endereço de memória onde se encontra a variável 'var_ex02': 0x60401ff748
+Mostra o valor da variável 'var_ex02', apontada pelo ponteiro 'ptr_ex02': 20
+--- Exemplo 03 --->
+Resultado do acesso ao endereço de memória da variável 'letra_ex03': +
+--- Exemplo 04 --->
+--- Exemplo 05 --->
+10 20 30 40 50 
+Endereço de memória onde está o primeiro elemento do 'array': 0x60401ff730
+Valor do primeiro elemento do 'array', usando o índice (index): 10
+Valor do primeiro elemento do 'array', usando o endereço (pointer): 10
+Novo endereço de memória, para onde o ponteiro aponta': 0x60401ff734
+Valor do elemento do 'array', apontado pelo novo endereço:  20
+Novo endereço de memória, para onde o ponteiro aponta': 0x60401ff738
+Valor do elemento do 'array', apontado pelo novo endereço: 30
+Novo endereço de memória, para onde o ponteiro aponta': 0x60401ff734
+Valor do elemento do 'array', apontado pelo novo endereço: 20
+Valor do elemento do 'array', apontado pelo endereço atual: 40
+Valor do elemento do 'array', apontado pelo endereço atual: 50
