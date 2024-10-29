@@ -5,15 +5,19 @@ void mudaLinha(void);
 void meuCarimbo(void);
 
 class Pessoa{
-    
+
+    private:
+    string nome;
+    int idade;
+    float classificacao;
+
     public:
-        string nome;
-        int idade;
-        float classificaacao;
+    // Construtor para inicializar os atributos
+    Pessoa(string n, int i, float c) : nome(n), idade(i), classificacao(c) {}
     
     // Função para verificar se a pessoa pode frequentar um evento
     void podeFrequentar(){
-        if(classificaacao >= 12 && idade >= 20){
+        if(classificacao >= 12 && idade >= 20){
             cout << nome << " pode increver-se." << endl;
         }
         else{
@@ -22,26 +26,31 @@ class Pessoa{
     }
 };
 
-int main(){
+int main(int argc, char* argv[]){
 
     meuCarimbo();
 	mudaLinha();
 
-    Pessoa pessoa;
+    if (argc != 4) { // Verificar se foram passados 3 argumentos: nome, idade e classificação
+        cerr << "Uso correto: <nome> <idade> <classificacao>" << endl;
+        return 1;
+    }
 
-    cout << "Digite seu nome: ";
-    getline(cin, pessoa.nome);
+    // Converter os argumentos fornecidos (string -> int/float)
+    string nome = argv[1];
+    int idade = atoi(argv[2]);  //  atoi converte string para integer
+    float classificacao = atof(argv[3]); // atof converte string para float
 
-    cout << "Digite sua idade: ";
-    cin >> pessoa.idade;
+    // Criar instância da classe Pessoa com os argumentos passados
+    Pessoa pessoa(nome, idade, classificacao);
+    pessoa.podeFrequentar();
 
-    cout << "Digite sua classificação: ";
-    cin >> pessoa.classificaacao;
-
+    // Verificar se a pessoa pode ou não inscrever-se
     pessoa.podeFrequentar();
 
     return 0;
 }
+
 
 // ------------------------------------------
 // Fun��o que muda de linha quando necess�rio
@@ -64,5 +73,3 @@ int main(){
 		printf("\n[Samyra Lima] - [ %s ]", data_hora);
 		mudaLinha();
 	}
-
-    

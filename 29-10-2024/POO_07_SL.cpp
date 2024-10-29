@@ -3,43 +3,41 @@ using namespace std;
 
 void mudaLinha(void); 
 void meuCarimbo(void);
-
-class Pessoa{
-    
-    public:
-        string nome;
-        int idade;
-        float classificaacao;
-    
-    // Função para verificar se a pessoa pode frequentar um evento
-    void podeFrequentar(){
-        if(classificaacao >= 12 && idade >= 20){
-            cout << nome << " pode increver-se." << endl;
-        }
-        else{
-            cout << nome << " nao pode increver-se." << endl;
-        }
+ 
+class umaClasse {
+public:
+    int valor;
+   
+    // Construtor por omissão [by default] (sem parâmetros)
+    umaClasse() {
+        cout << "Evoca o construtor sem parâmetros." << endl;
+        valor = 29;
     }
+ 
+    // Construtor com parâmetros
+    umaClasse(int umValor) {
+        cout << "Evoca o construtor com um parâmetro (ou argumento)." << endl;
+        valor = umValor;
+    }
+ 
+    // Método
+    void mostraValor() {
+        cout << "valor: " << valor << endl;
+    }
+ 
 };
-
-int main(){
-
+ 
+int main() {
+    
     meuCarimbo();
 	mudaLinha();
 
-    Pessoa pessoa;
-
-    cout << "Digite seu nome: ";
-    getline(cin, pessoa.nome);
-
-    cout << "Digite sua idade: ";
-    cin >> pessoa.idade;
-
-    cout << "Digite sua classificação: ";
-    cin >> pessoa.classificaacao;
-
-    pessoa.podeFrequentar();
-
+    umaClasse objeto_um;        
+    umaClasse objeto_dois(10);    
+ 
+    objeto_um.mostraValor();
+    objeto_dois.mostraValor();
+ 
     return 0;
 }
 
@@ -64,5 +62,3 @@ int main(){
 		printf("\n[Samyra Lima] - [ %s ]", data_hora);
 		mudaLinha();
 	}
-
-    
