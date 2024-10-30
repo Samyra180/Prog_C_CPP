@@ -3,41 +3,37 @@ using namespace std;
 
 void mudaLinha(void); 
 void meuCarimbo(void);
- 
-class umaClasse {
+
+class Carro{
 public:
-    int valor;
-   
-    // Construtor por omissão [by default] (sem parâmetros)
-    umaClasse() {
-        cout << "Evoca o construtor sem parâmetros." << endl;
-        valor = 29;
-    }
- 
-    // Construtor com parâmetros
-    umaClasse(int umValor) {
-        cout << "Evoca o construtor com um parâmetro (ou argumento)." << endl;
-        valor = umValor;
-    }
- 
-    // Método
-    void mostraValor() {
-        cout << "valor: " << valor << endl;
-    }
- 
-};
- 
-int main() {
+    string nomeCarro;
     
+    // Construtor com um argumento
+    Carro( string nomeCarro) {
+        this -> nomeCarro = nomeCarro;
+    }
+
+    // Construtor de cópia
+    Carro(Carro &outroCarro) {
+       nomeCarro = outroCarro.nomeCarro;
+    }
+
+};
+
+int main() {
+
     meuCarimbo();
 	mudaLinha();
 
-    umaClasse objeto_um;        
-    umaClasse objeto_dois(10);    
- 
-    objeto_um.mostraValor();
-    objeto_dois.mostraValor();
- 
+    Carro carroOriginal("Ruido tipo Mustang");
+    cout << "Carro original: " << carroOriginal.nomeCarro << endl;
+   
+    Carro carroCopiado(carroOriginal);
+    cout << "Primeiro carro copiado: " << carroCopiado.nomeCarro << endl;
+    
+    Carro outroCarroCopiado(carroOriginal);
+    cout << "Segundo carro copiado: " << outroCarroCopiado.nomeCarro << endl;
+
     return 0;
 }
 
